@@ -27,6 +27,8 @@ const fetchdata= usr=>{
                   return;
             }
             else{
+                  showuser();
+                  console.log(data);
                   pfp.src=data.avatar_url;
                   pname.innerText=data.name; 
                   username.innerText=usr;       
@@ -51,7 +53,6 @@ form.addEventListener('submit',(e)=>{
       showload();
       setTimeout(()=>{
             hideload();
-            showuser();
             fetchdata(input.value);
       },3000);
 });

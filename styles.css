@@ -180,16 +180,16 @@ h1 {
 
 
 #userinfo{
+      font-family: 'Noto Sans', sans-serif;
       text-align: center;
       padding: 1em 0px;
       display: none;
-      justify-content: space-evenly;
-      align-items: center;
-      transition: display 2s ;
+      background-color: rgba(0, 255, 255, 0.101);
+      transition: all 3s;
 }
 
 #userinfo>*{
-      margin:0px 0.7em;
+      margin:0.7rem 0px;
 }
 
 #userinfo h1{
