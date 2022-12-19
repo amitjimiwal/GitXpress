@@ -180,11 +180,12 @@ h1 {
 
 
 #userinfo{
+      text-align: center;
       padding: 1em 0px;
-      display: flex;
+      display: none;
       justify-content: space-evenly;
       align-items: center;
-      background-color: rgb(193, 193, 180);
+      transition: display 2s ;
 }
 
 #userinfo>*{
@@ -202,17 +203,12 @@ a{
       text-decoration: none;
 }
 #userinfo img{
-      border: 2px solid black;
       height: 100%;
       border-radius: 50%;
       width:150px;
       height: 150px;
 
 }
-#userinfo img{
-      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.166);
-}
-
 .go-to-profile{
       padding: 0.5em;
       background-color: chartreuse;
