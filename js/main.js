@@ -8,7 +8,7 @@ const input=document.getElementById('userid');
 const loader=document.querySelector('.loader');
 const form=document.getElementById('inputform');
 
-
+// Loading icon functions
 const hideload=()=>{
    loader.style.display='none';
 }
@@ -17,6 +17,8 @@ const showload=()=>{
       loader.style.display='block';
 }
 
+
+// data fetching function.
 const fetchdata= usr=>{
       fetch(`https://api.github.com/users/${usr}`)
       .then(response=> response.json())
@@ -40,6 +42,7 @@ const fetchdata= usr=>{
       });  
 }
 
+// UI showing function.
 function showuser(){
       document.getElementById('userinfo').style.display='block';
 }
@@ -47,6 +50,7 @@ function hideuser(){
       document.getElementById('userinfo').style.display='none';
 }
 
+// event listener function.
 form.addEventListener('submit',(e)=>{
       e.preventDefault();
       hideuser();
@@ -56,6 +60,8 @@ form.addEventListener('submit',(e)=>{
             fetchdata(input.value);
       },3000);
 });
+
+
 
 
 
