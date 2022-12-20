@@ -53,12 +53,20 @@ function hideuser(){
 // event listener function.
 form.addEventListener('submit',(e)=>{
       e.preventDefault();
-      hideuser();
-      showload();
-      setTimeout(()=>{
-            hideload();
-            fetchdata(input.value);
-      },3000);
+      const j=input.value;
+      if(j.length>0){
+            hideuser();
+            showload();
+            setTimeout(()=>{
+                  hideload();
+                  fetchdata(input.value);
+            },3000);
+      }
+      else{
+            alert('Enter a Name Please.');
+            return;
+      }
+      
 });
 
 
