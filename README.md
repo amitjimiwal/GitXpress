@@ -1,17 +1,47 @@
 # GitXpress
 GitXpress is used to search any Github user with the help of their usernames using Github API. It will Display the details of the user.
- 
-# Contributing
-We welcome contributions to this project! To get started, follow these steps:
+<br>
+<br>
+![Banner](https://github.com/amitjimiwal/GitXpress/assets/90555965/fe87c869-44f9-488b-a6bb-7d2150adb68b)
 
-1. Fork this repository.
-2. Create a new branch: git checkout -b my-new-feature.
-3. Make your changes and commit them: git commit -am 'Add some feature'.
-4. Push to the branch: git push origin my-new-feature.
-5. Submit a pull request.
+### Contributing
 
-Please make sure your code adheres to our coding standards and is properly documented. We also recommend opening an issue to discuss any major changes before you start working on them.
+Contributions to this project are welcome. If you find any bugs or have suggestions for improvements, feel free to open an issue or create a pull request.
 
-If you would like to contribute but don't know where to start, check out the list of open issues for ideas. Or, feel free to reach out to us with questions or suggestions.
+1. Fork the repository from the GitHub page: [https://github.com/amitjimiwal/GitXpress](https://github.com/amitjimiwal/GitXpress)
 
-Thank you for your contributions to this project!
+2. Clone your forked repository to your local machine.
+
+3. Create a new branch for your feature or bug fix:
+
+```bash
+git checkout -b feature/your-feature-name
+```
+
+4. Make your changes and commit them with descriptive commit messages:
+
+```bash
+git commit -m "Add new feature" -m "Description of the changes."
+```
+
+5. Push the changes to your forked repository:
+
+```bash
+git push origin feature/your-feature-name
+```
+
+6. Create a pull request on the original repository, explaining the changes you made and their benefits.
+
+We appreciate your contributions, and together, we can make this Project even better!
+
+## License
+
+GitXpress is an open-source project licensed under the [MIT License](LICENSE). You can use, modify, and distribute the code under the terms of this license.
+
+## Contact
+
+If you have any questions, suggestions, or feedback, you can reach out to the project maintainers:
+
+- Amit Jimiwal - [GitHub](https://github.com/amitjimiwal)
+
+We appreciate your interest and support for GitXpress!
